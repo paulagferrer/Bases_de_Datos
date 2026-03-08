@@ -66,12 +66,3 @@ if EJERCICIO_40:
 
     df_new = pd.DataFrame(rows, columns=columnas) #ecercici 41
 
-    conteo_salida = {} #exericci 42
-    for _, row in df_new.iterrows():
-        aeropuerto = row['from']
-        conteo_salida[aeropuerto] = conteo_salida.get(aeropuerto, 0) + 1
-
-    max_salida = max(conteo_salida.items(), key=lambda x: x[1])
-    print("Ejercicio 42:")
-    print(max_salida)
-
