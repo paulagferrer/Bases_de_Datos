@@ -7,7 +7,7 @@ EJERCICIO_21 = True
 cnx = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Milu2025&",
+        password="contraseña",
         database="airportdb"
     )
 cur = cnx.cursor()

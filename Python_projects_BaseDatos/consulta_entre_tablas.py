@@ -4,7 +4,7 @@ import pandas as pd
 cnx = pymysql.connect(
     host="localhost",
     user="root",
-    password="Milu2025&",
+    password="contraseña",
     database="airportdb"
 )
 cur = cnx.cursor()

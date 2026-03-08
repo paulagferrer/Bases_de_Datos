@@ -8,7 +8,7 @@ if EXERCICI_24:
         cnx = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="Milu2025&",
+            password="contraseña",
             database="airportdb"
         )
 
