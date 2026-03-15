@@ -1,6 +1,6 @@
 import mysql.connector
 import pandas as pd
-
+#exercicis semana 4.2
 cnx = mysql.connector.connect(
     host="localhost",
     user="root",

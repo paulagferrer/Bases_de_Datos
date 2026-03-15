@@ -2,7 +2,7 @@ import pandas as pd
 import mysql.connector
 
 EJERCICIO_14 = False
-EJERCICIO_21 = True
+EJERCICIO_21 = False
 
 cnx = mysql.connector.connect(
         host="localhost",
